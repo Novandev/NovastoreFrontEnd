@@ -1,0 +1,16 @@
+
+#layout-grid{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+
+}
+
+main{
+    min-height:90vh;
+}
+
+.footer {
+    clear: both;
+   align-self: flex-end
+}
