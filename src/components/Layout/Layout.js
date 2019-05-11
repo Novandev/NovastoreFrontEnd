@@ -13,27 +13,14 @@ class Layout extends React.Component{
     }
     render(){
         return(
-
-            <div className="layout-style">
-                <Helmet>
-
-
-                </Helmet>
-
-                <div id={'layout-grid'}>
-                    <header>
-                            <Header/>
-                    </header>
-                    <main>
-                        {this.props.children}
-                    </main>
-
-                    <footer class="footer">
-                        <Footer/>
-                    </footer>
+<div className="content-wrapper">
+                <Header/>
+                <main>
+                    {this.props.children}
+                </main>
+                <div id='bottom-align'>
+                    <Footer/>
                 </div>
-
-
 
 
             </div>

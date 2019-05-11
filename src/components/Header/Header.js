@@ -1,6 +1,5 @@
 import React from 'react'
 import './header.css'
-import Logo from '../../assets/colorful-logo.png'
 import { Link } from 'react-router-dom'
 import { Nav, NavItem, NavLink, Dropdown,DropdownToggle,DropdownMenu,DropdownItem} from "shards-react";
 
@@ -25,7 +24,6 @@ class Header extends React.Component{
             <Nav id="nav">
                 <NavItem id="logo-wrapper">
                     <NavLink>
-                        {/* <img src={Logo} height="50px" width="50px"/> */}
                     <Link id="text-logo" to="/">Novastore</Link>
                     </NavLink>
                 </NavItem>

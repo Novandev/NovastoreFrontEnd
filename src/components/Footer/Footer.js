@@ -3,12 +3,8 @@ import './footer.css'
 
 const Footer = () => (
     <footer>
-
-        <section>
-
-        </section>
-
-        <p id="foot">Novastore 2019 &copy;</p>
+        <p >Novastore 2019 &copy;</p>
+        <p>Data Science and Statistics as a service.</p>
     </footer>
 )
 
